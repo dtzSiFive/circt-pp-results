@@ -8,7 +8,7 @@ set -euo pipefail
 nix build github:dtzSiFive/circt-test-flake -L -o out
 
 rm -rf results
-cp -ar out/ results
+cp -Lr out/ results
 
 git add results
 
