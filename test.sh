@@ -5,7 +5,7 @@
 
 set -euo pipefail
 
-nix build github:dtzSiFive/circt-test-flake -L -o out
+nix build github:dtzSiFive/circt-test-flake -L -o out --refresh
 
 rm -rf results
 cp -Lr out/ results
