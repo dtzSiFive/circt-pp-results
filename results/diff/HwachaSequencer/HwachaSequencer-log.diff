@@ -1,0 +1,292 @@
+--- /nix/store/650ba1vdbm71dcfcsb3872j6q3zbil1w-test-outputs/HwachaSequencer/HwachaSequencer.log
++++ /nix/store/cpdlyhkvn56avjf4idy5izcqdxniax3w-test-outputs/HwachaSequencer/HwachaSequencer.log
+@@ -1,191 +1,191 @@
+ [firtool] Running fir parser
+ [firtool] -- Done in 0.020 sec
+ [firtool] Running "firrtl.circuit(firrtl-lower-annotations{disable-annotation-classless=false disable-annotation-unknown=true},firrtl.module(firrtl-drop-names{preserve-values=named},cse),firrtl-inject-dut-hier,firrtl.module(firrtl-lower-chirrtl),firrtl-infer-widths,firrtl-mem-to-reg-of-vec{ignore-read-enable-mem=false repl-seq-mem=false},firrtl-infer-resets,firrtl-dft,firrtl-lower-types{flatten-mem=false preserve-aggregate=1d-vec preserve-public-types=true},firrtl.module(firrtl-expand-whens,firrtl-sfc-compat),firrtl-inliner,firrtl.module(firrtl-randomize-register-init),firrtl-check-comb-cycles{print-simple-cycle=true},firrtl.module(canonicalize{  max-iterations=10 region-simplify=false top-down=true},firrtl-infer-rw),firrtl-prefix-modules,firrtl-imconstprop,firrtl-add-seqmem-ports,firrtl-emit-metadata{repl-seq-mem=false repl-seq-mem-circuit= repl-seq-mem-file=},firrtl-extract-instances,firrtl-grand-central,firrtl-grand-central-taps,firrtl-grand-central-signal-mappings{file=},symbol-dce,firrtl-blackbox-reader{input-prefix=/nix/store/ly38rhsik2wil4mkmpsc5z8z7lfm2vip-source/regress},firrtl.module(firrtl-drop-names{preserve-values=named},canonicalize{  max-iterations=10 region-simplify=false top-down=true}),firrtl-imdeadcodeelim,firrtl-emit-omir{file=},firrtl-resolve-traces{file=},firrtl-lower-xmr)"
+ [firtool]   Running "firrtl-lower-annotations{disable-annotation-classless=false disable-annotation-unknown=true}"
+-[firtool]   -- Done in 0.005 sec
++[firtool]   -- Done in 0.004 sec
+ [firtool]   Running "firrtl.module(firrtl-drop-names{preserve-values=named},cse)"
+-[firtool]   -- Done in 0.015 sec
++[firtool]   -- Done in 0.014 sec
+ [firtool]   Running "firrtl-inject-dut-hier"
+ [firtool]   -- Done in 0.000 sec
+ [firtool]   Running "firrtl.module(firrtl-lower-chirrtl)"
+ [firtool]   -- Done in 0.001 sec
+ [firtool]   Running "firrtl-infer-widths"
+ [firtool]   -- Done in 0.000 sec
+ [firtool]   Running "firrtl-mem-to-reg-of-vec{ignore-read-enable-mem=false repl-seq-mem=false}"
+ [firtool]   -- Done in 0.004 sec
+ [firtool]   Running "firrtl-infer-resets"
+ [firtool]   -- Done in 0.006 sec
+ [firtool]   Running "firrtl-dft"
+ [firtool]   -- Done in 0.001 sec
+ [firtool]   Running "firrtl-lower-types{flatten-mem=false preserve-aggregate=1d-vec preserve-public-types=true}"
+-[firtool]   -- Done in 0.087 sec
++[firtool]   -- Done in 0.084 sec
+ [firtool]   Running "firrtl.module(firrtl-expand-whens,firrtl-sfc-compat)"
+-[firtool]   -- Done in 0.091 sec
++[firtool]   -- Done in 0.086 sec
+ [firtool]   Running "firrtl-inliner"
+-[firtool]   -- Done in 0.053 sec
++[firtool]   -- Done in 0.045 sec
+ [firtool]   Running "firrtl.module(firrtl-randomize-register-init)"
+-[firtool]   -- Done in 0.041 sec
++[firtool]   -- Done in 0.038 sec
+ [firtool]   Running "firrtl-check-comb-cycles{print-simple-cycle=true}"
+-[firtool]   -- Done in 0.149 sec
++[firtool]   -- Done in 0.129 sec
+ [firtool]   Running "firrtl.module(canonicalize{  max-iterations=10 region-simplify=false top-down=true},firrtl-infer-rw)"
+-[firtool]   -- Done in 0.184 sec
++[firtool]   -- Done in 0.166 sec
+ [firtool]   Running "firrtl-prefix-modules"
+-[firtool]   -- Done in 0.010 sec
++[firtool]   -- Done in 0.008 sec
+ [firtool]   Running "firrtl-imconstprop"
+-[firtool]   -- Done in 0.079 sec
++[firtool]   -- Done in 0.074 sec
+ [firtool]   Running "firrtl-add-seqmem-ports"
+-[firtool]   -- Done in 0.005 sec
++[firtool]   -- Done in 0.004 sec
+ [firtool]   Running "firrtl-emit-metadata{repl-seq-mem=false repl-seq-mem-circuit= repl-seq-mem-file=}"
+-[firtool]   -- Done in 0.025 sec
++[firtool]   -- Done in 0.023 sec
+ [firtool]   Running "firrtl-extract-instances"
+ [firtool]   -- Done in 0.002 sec
+ [firtool]   Running "firrtl-grand-central"
+ [firtool]   -- Done in 0.000 sec
+ [firtool]   Running "firrtl-grand-central-taps"
+-[firtool]   -- Done in 0.003 sec
++[firtool]   -- Done in 0.002 sec
+ [firtool]   Running "firrtl-grand-central-signal-mappings{file=}"
+ [firtool]   -- Done in 0.000 sec
+ [firtool]   Running "symbol-dce"
+-[firtool]   -- Done in 0.032 sec
++[firtool]   -- Done in 0.031 sec
+ [firtool]   Running "firrtl-blackbox-reader{input-prefix=/nix/store/ly38rhsik2wil4mkmpsc5z8z7lfm2vip-source/regress}"
+-[firtool]   -- Done in 0.005 sec
++[firtool]   -- Done in 0.003 sec
+ [firtool]   Running "firrtl.module(firrtl-drop-names{preserve-values=named},canonicalize{  max-iterations=10 region-simplify=false top-down=true})"
+-[firtool]   -- Done in 0.077 sec
++[firtool]   -- Done in 0.074 sec
+ [firtool]   Running "firrtl-imdeadcodeelim"
+-[firtool]   -- Done in 0.050 sec
++[firtool]   -- Done in 0.045 sec
+ [firtool]   Running "firrtl-emit-omir{file=}"
+ [firtool]   -- Done in 0.000 sec
+ [firtool]   Running "firrtl-resolve-traces{file=}"
+-[firtool]   -- Done in 0.005 sec
++[firtool]   -- Done in 0.004 sec
+ [firtool]   Running "firrtl-lower-xmr"
+-[firtool]   -- Done in 0.032 sec
+-[firtool] -- Done in 0.960 sec
++[firtool]   -- Done in 0.030 sec
++[firtool] -- Done in 0.878 sec
+ [firtool] Running "lower-firrtl-to-hw{emit-chisel-asserts-as-sva=false strip-mux-pragmas=false warn-on-unprocessed-annotations=false}"
+-[firtool] -- Done in 0.085 sec
++[firtool] -- Done in 0.083 sec
+ [firtool] Running "hw.module(cse,canonicalize{  max-iterations=10 region-simplify=false top-down=true},cse,lower-seq-firrtl-to-sv)"
+-[firtool] -- Done in 0.433 sec
++[firtool] -- Done in 0.413 sec
+ [firtool] Running "hw-memory-sim{ignore-read-enable-mem=false repl-seq-mem=false strip-mux-pragmas=false}"
+ [firtool] -- Done in 0.000 sec
+ [firtool] Running "hw.module(cse,canonicalize{  max-iterations=10 region-simplify=false top-down=true},cse,hw-cleanup)"
+-[firtool] -- Done in 0.841 sec
++[firtool] -- Done in 0.707 sec
+ [firtool] Running "hw.module(hw-legalize-modules,prettify-verilog)"
+-[firtool] -- Done in 0.252 sec
++[firtool] -- Done in 0.247 sec
+ [firtool] Running "strip-debuginfo-with-pred{drop-suffix=}"
+-[firtool] -- Done in 0.155 sec
++[firtool] -- Done in 0.158 sec
+ [firtool] Running "export-verilog"
+ [firtool]   Running "hw.module(prepare-for-emission)"
+-[firtool]   -- Done in 0.361 sec
+-[firtool] -- Done in 0.783 sec
++[firtool]   -- Done in 0.352 sec
++[firtool] -- Done in 0.903 sec
+ ===-------------------------------------------------------------------------===
+                          ... Execution time report ...
+ ===-------------------------------------------------------------------------===
+-  Total Execution Time: 3.5307 seconds
++  Total Execution Time: 3.4103 seconds
+ 
+   ----Wall Time----  ----Name----
+-    0.0204 (  0.6%)  FIR Parser
++    0.0203 (  0.6%)  FIR Parser
+     0.0000 (  0.0%)    Parse annotations
+     0.0000 (  0.0%)    Parse OMIR
+-    0.0153 (  0.4%)    Parse modules
++    0.0150 (  0.4%)    Parse modules
+     0.0048 (  0.1%)    Verify circuit
+-    0.9603 ( 27.2%)  'firrtl.circuit' Pipeline
+-    0.0048 (  0.1%)    LowerFIRRTLAnnotations
+-    0.0139 (  0.4%)    'firrtl.module' Pipeline
+-    0.0056 (  0.2%)      DropName
+-    0.0083 (  0.2%)      CSE
++    0.8778 ( 25.7%)  'firrtl.circuit' Pipeline
++    0.0045 (  0.1%)    LowerFIRRTLAnnotations
++    0.0131 (  0.4%)    'firrtl.module' Pipeline
++    0.0052 (  0.2%)      DropName
++    0.0079 (  0.2%)      CSE
+     0.0000 (  0.0%)        (A) DominanceInfo
+     0.0000 (  0.0%)    InjectDUTHierarchy
+     0.0004 (  0.0%)    'firrtl.module' Pipeline
+     0.0004 (  0.0%)      LowerCHIRRTLPass
+     0.0004 (  0.0%)    InferWidths
+-    0.0040 (  0.1%)    MemToRegOfVec
+-    0.0061 (  0.2%)    InferResets
++    0.0039 (  0.1%)    MemToRegOfVec
++    0.0059 (  0.2%)    InferResets
+     0.0003 (  0.0%)      (A) circt::firrtl::InstanceGraph
+-    0.0005 (  0.0%)    WireDFT
+-    0.0875 (  2.5%)    LowerFIRRTLTypes
+-    0.0800 (  2.3%)    'firrtl.module' Pipeline
+-    0.0770 (  2.2%)      ExpandWhens
+-    0.0030 (  0.1%)      SFCCompat
+-    0.0528 (  1.5%)    Inliner
+-    0.0287 (  0.8%)    'firrtl.module' Pipeline
+-    0.0287 (  0.8%)      RandomizeRegisterInit
+-    0.1493 (  4.2%)    CheckCombCycles
++    0.0008 (  0.0%)    WireDFT
++    0.0837 (  2.5%)    LowerFIRRTLTypes
++    0.0745 (  2.2%)    'firrtl.module' Pipeline
++    0.0720 (  2.1%)      ExpandWhens
++    0.0025 (  0.1%)      SFCCompat
++    0.0451 (  1.3%)    Inliner
++    0.0268 (  0.8%)    'firrtl.module' Pipeline
++    0.0268 (  0.8%)      RandomizeRegisterInit
++    0.1288 (  3.8%)    CheckCombCycles
+     0.0053 (  0.2%)      (A) circt::firrtl::InstanceGraph
+-    0.1761 (  5.0%)    'firrtl.module' Pipeline
+-    0.1518 (  4.3%)      Canonicalizer
+-    0.0243 (  0.7%)      InferReadWrite
+-    0.0098 (  0.3%)    PrefixModules
+-    0.0038 (  0.1%)      (A) circt::firrtl::InstanceGraph
++    0.1576 (  4.6%)    'firrtl.module' Pipeline
++    0.1367 (  4.0%)      Canonicalizer
++    0.0208 (  0.6%)      InferReadWrite
++    0.0082 (  0.2%)    PrefixModules
++    0.0042 (  0.1%)      (A) circt::firrtl::InstanceGraph
+     0.0000 (  0.0%)      (A) circt::firrtl::NLATable
+-    0.0786 (  2.2%)    IMConstProp
+-    0.0048 (  0.1%)    AddSeqMemPorts
+-    0.0048 (  0.1%)      (A) circt::firrtl::InstanceGraph
+-    0.0247 (  0.7%)    CreateSiFiveMetadata
++    0.0736 (  2.2%)    IMConstProp
++    0.0041 (  0.1%)    AddSeqMemPorts
++    0.0040 (  0.1%)      (A) circt::firrtl::InstanceGraph
++    0.0232 (  0.7%)    CreateSiFiveMetadata
+     0.0017 (  0.0%)    ExtractInstances
+     0.0000 (  0.0%)      (A) circt::firrtl::NLATable
+     0.0000 (  0.0%)    GrandCentral
+-    0.0030 (  0.1%)    GrandCentralTaps
++    0.0022 (  0.1%)    GrandCentralTaps
+     0.0000 (  0.0%)    GrandCentralSignalMappings
+-    0.0317 (  0.9%)    SymbolDCE
+-    0.0053 (  0.1%)    BlackBoxReader
+-    0.0052 (  0.1%)      (A) circt::firrtl::InstanceGraph
+-    0.0689 (  2.0%)    'firrtl.module' Pipeline
+-    0.0186 (  0.5%)      DropName
+-    0.0503 (  1.4%)      Canonicalizer
+-    0.0499 (  1.4%)    IMDeadCodeElim
+-    0.0059 (  0.2%)      (A) circt::firrtl::InstanceGraph
++    0.0305 (  0.9%)    SymbolDCE
++    0.0035 (  0.1%)    BlackBoxReader
++    0.0035 (  0.1%)      (A) circt::firrtl::InstanceGraph
++    0.0662 (  1.9%)    'firrtl.module' Pipeline
++    0.0177 (  0.5%)      DropName
++    0.0485 (  1.4%)      Canonicalizer
++    0.0450 (  1.3%)    IMDeadCodeElim
++    0.0038 (  0.1%)      (A) circt::firrtl::InstanceGraph
+     0.0000 (  0.0%)    EmitOMIR
+-    0.0051 (  0.1%)    ResolveTraces
++    0.0041 (  0.1%)    ResolveTraces
+     0.0000 (  0.0%)      (A) circt::firrtl::NLATable
+-    0.0317 (  0.9%)    LowerXMR
+-    0.0052 (  0.1%)      (A) circt::firrtl::InstanceGraph
+-    0.0847 (  2.4%)  LowerFIRRTLToHW
++    0.0297 (  0.9%)    LowerXMR
++    0.0042 (  0.1%)      (A) circt::firrtl::InstanceGraph
++    0.0832 (  2.4%)  LowerFIRRTLToHW
+     0.0000 (  0.0%)    (A) circt::firrtl::NLATable
+-    0.0039 (  0.1%)    (A) circt::firrtl::InstanceGraph
+-    0.4123 ( 11.7%)  'hw.module' Pipeline
+-    0.0467 (  1.3%)    CSE
++    0.0041 (  0.1%)    (A) circt::firrtl::InstanceGraph
++    0.3927 ( 11.5%)  'hw.module' Pipeline
++    0.0436 (  1.3%)    CSE
+     0.0000 (  0.0%)      (A) DominanceInfo
+-    0.1324 (  3.8%)    Canonicalizer
+-    0.0295 (  0.8%)    CSE
++    0.1216 (  3.6%)    Canonicalizer
++    0.0275 (  0.8%)    CSE
+     0.0000 (  0.0%)      (A) DominanceInfo
+-    0.2036 (  5.8%)    LowerSeqFIRRTLToSV
++    0.2000 (  5.9%)    LowerSeqFIRRTLToSV
+     0.0000 (  0.0%)  HWMemSimImpl
+-    0.8200 ( 23.2%)  'hw.module' Pipeline
+-    0.1614 (  4.6%)    CSE
++    0.6875 ( 20.2%)  'hw.module' Pipeline
++    0.1565 (  4.6%)    CSE
+     0.0000 (  0.0%)      (A) DominanceInfo
+-    0.4925 ( 13.9%)    Canonicalizer
+-    0.0520 (  1.5%)    CSE
++    0.3719 ( 10.9%)    Canonicalizer
++    0.0494 (  1.4%)    CSE
+     0.0000 (  0.0%)      (A) DominanceInfo
+-    0.1141 (  3.2%)    HWCleanup
+-    0.2297 (  6.5%)  'hw.module' Pipeline
+-    0.0115 (  0.3%)    HWLegalizeModules
+-    0.2182 (  6.2%)    PrettifyVerilog
+-    0.1550 (  4.4%)  StripDebugInfoWithPred
+-    0.7831 ( 22.2%)  ExportVerilog
+-    0.3606 ( 10.2%)  'builtin.module' Pipeline
+-    0.3313 (  9.4%)    'hw.module' Pipeline
+-    0.3313 (  9.4%)      PrepareForEmission
+-   -0.3598 (-10.2%)  Rest
+-    3.5307 (100.0%)  Total
+-	Command being timed: "firtool /nix/store/ly38rhsik2wil4mkmpsc5z8z7lfm2vip-source/regress/HwachaSequencer.fir -o /nix/store/650ba1vdbm71dcfcsb3872j6q3zbil1w-test-outputs/HwachaSequencer/HwachaSequencer.sv -mlir-timing -verbose-pass-executions"
+-	User time (seconds): 3.47
+-	System time (seconds): 0.06
++    0.1096 (  3.2%)    HWCleanup
++    0.2256 (  6.6%)  'hw.module' Pipeline
++    0.0112 (  0.3%)    HWLegalizeModules
++    0.2143 (  6.3%)    PrettifyVerilog
++    0.1579 (  4.6%)  StripDebugInfoWithPred
++    0.9027 ( 26.5%)  ExportVerilog
++    0.3520 ( 10.3%)  'builtin.module' Pipeline
++    0.3220 (  9.4%)    'hw.module' Pipeline
++    0.3220 (  9.4%)      PrepareForEmission
++   -0.3511 (-10.3%)  Rest
++    3.4103 (100.0%)  Total
++	Command being timed: "firtool /nix/store/ly38rhsik2wil4mkmpsc5z8z7lfm2vip-source/regress/HwachaSequencer.fir -o /nix/store/cpdlyhkvn56avjf4idy5izcqdxniax3w-test-outputs/HwachaSequencer/HwachaSequencer.sv -mlir-timing -verbose-pass-executions"
++	User time (seconds): 3.36
++	System time (seconds): 0.05
+ 	Percent of CPU this job got: 99%
+-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.54
++	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.42
+ 	Average shared text size (kbytes): 0
+ 	Average unshared data size (kbytes): 0
+ 	Average stack size (kbytes): 0
+ 	Average total size (kbytes): 0
+-	Maximum resident set size (kbytes): 205392
++	Maximum resident set size (kbytes): 205200
+ 	Average resident set size (kbytes): 0
+-	Major (requiring I/O) page faults: 0
++	Major (requiring I/O) page faults: 2
+ 	Minor (reclaiming a frame) page faults: 52180
+-	Voluntary context switches: 80
+-	Involuntary context switches: 220
++	Voluntary context switches: 72
++	Involuntary context switches: 159
+ 	Swaps: 0
+ 	File system inputs: 0
+-	File system outputs: 38536
++	File system outputs: 38528
+ 	Socket messages sent: 0
+ 	Socket messages received: 0
+ 	Signals delivered: 0
+ 	Page size (bytes): 4096
+ 	Exit status: 0
