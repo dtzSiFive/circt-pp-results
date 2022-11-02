@@ -9,6 +9,7 @@ nix build github:dtzSiFive/circt-test-flake -L -o out
 
 rm -rf results
 cp -Lr out/ results
+rm out
 chmod u+rw -R results
 
 git add results
