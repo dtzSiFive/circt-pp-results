@@ -1,167 +1,167 @@
---- /nix/store/1f8fxcd96z078szc53yx6hab9zll3829-test-outputs/Ops/Ops.log
-+++ /nix/store/9dqnbcjp2daj10ssgm5rahvzx3s364a6-test-outputs/Ops/Ops.log
-@@ -78,113 +78,113 @@
+--- /nix/store/rfz8xg71wnncp5iydcs4inl9q65hwrrm-test-outputs/Ops/Ops.log
++++ /nix/store/f8dvy95kjpjl44pg9ajjdgdc1lhlimn0-test-outputs/Ops/Ops.log
+@@ -75,116 +75,116 @@
+ [firtool] Running "export-verilog"
+ [firtool]   Running "hw.module(prepare-for-emission)"
+ [firtool]   -- Done in 0.000 sec
  [firtool] -- Done in 0.000 sec
  ===-------------------------------------------------------------------------===
                           ... Execution time report ...
  ===-------------------------------------------------------------------------===
-   Total Execution Time: 0.0041 seconds
+-  Total Execution Time: 0.0039 seconds
++  Total Execution Time: 0.0040 seconds
  
    ----Wall Time----  ----Name----
--    0.0004 (  8.6%)  FIR Parser
-+    0.0003 (  8.2%)  FIR Parser
+-    0.0003 (  8.3%)  FIR Parser
++    0.0003 (  8.1%)  FIR Parser
      0.0000 (  0.0%)    Parse annotations
      0.0000 (  0.0%)    Parse OMIR
--    0.0002 (  4.9%)    Parse modules
--    0.0001 (  2.6%)    Verify circuit
--    0.0018 ( 43.3%)  'firrtl.circuit' Pipeline
+     0.0002 (  5.1%)    Parse modules
+-    0.0001 (  2.1%)    Verify circuit
+-    0.0017 ( 42.6%)  'firrtl.circuit' Pipeline
 -    0.0001 (  1.7%)    LowerFIRRTLAnnotations
--    0.0001 (  3.5%)    'firrtl.module' Pipeline
--    0.0001 (  1.4%)      DropName
+-    0.0001 (  3.1%)    'firrtl.module' Pipeline
+-    0.0000 (  1.0%)      DropName
 -    0.0001 (  2.1%)      CSE
-+    0.0002 (  5.2%)    Parse modules
-+    0.0001 (  1.9%)    Verify circuit
-+    0.0017 ( 41.9%)  'firrtl.circuit' Pipeline
-+    0.0001 (  1.5%)    LowerFIRRTLAnnotations
-+    0.0001 (  3.3%)    'firrtl.module' Pipeline
-+    0.0000 (  0.9%)      DropName
-+    0.0001 (  2.3%)      CSE
++    0.0001 (  1.8%)    Verify circuit
++    0.0018 ( 43.7%)  'firrtl.circuit' Pipeline
++    0.0001 (  1.6%)    LowerFIRRTLAnnotations
++    0.0002 (  4.6%)    'firrtl.module' Pipeline
++    0.0001 (  2.0%)      DropName
++    0.0001 (  2.6%)      CSE
      0.0000 (  0.0%)        (A) DominanceInfo
-     0.0000 (  0.1%)    InjectDUTHierarchy
-     0.0000 (  0.2%)    'firrtl.module' Pipeline
-     0.0000 (  0.1%)      LowerCHIRRTLPass
+-    0.0000 (  0.1%)    InjectDUTHierarchy
+-    0.0000 (  0.2%)    'firrtl.module' Pipeline
+-    0.0000 (  0.1%)      LowerCHIRRTLPass
 -    0.0001 (  2.7%)    InferWidths
 -    0.0000 (  1.1%)    MemToRegOfVec
 -    0.0001 (  1.6%)    InferResets
 -    0.0000 (  0.1%)      (A) circt::firrtl::InstanceGraph
--    0.0000 (  0.4%)    WireDFT
--    0.0001 (  1.6%)    LowerFIRRTLTypes
--    0.0001 (  3.0%)    'firrtl.module' Pipeline
--    0.0001 (  2.9%)      ExpandWhens
-+    0.0001 (  3.3%)    InferWidths
-+    0.0001 (  1.2%)    MemToRegOfVec
-+    0.0001 (  2.1%)    InferResets
++    0.0000 (  0.7%)    InjectDUTHierarchy
++    0.0000 (  0.5%)    'firrtl.module' Pipeline
++    0.0000 (  0.5%)      LowerCHIRRTLPass
++    0.0001 (  3.6%)    InferWidths
++    0.0000 (  1.2%)    MemToRegOfVec
++    0.0001 (  1.7%)    InferResets
 +    0.0000 (  0.2%)      (A) circt::firrtl::InstanceGraph
-+    0.0000 (  0.3%)    WireDFT
-+    0.0001 (  1.7%)    LowerFIRRTLTypes
-+    0.0001 (  2.6%)    'firrtl.module' Pipeline
-+    0.0001 (  2.5%)      ExpandWhens
+     0.0000 (  0.2%)    WireDFT
+-    0.0001 (  1.6%)    LowerFIRRTLTypes
+-    0.0001 (  2.6%)    'firrtl.module' Pipeline
+-    0.0001 (  2.5%)      ExpandWhens
++    0.0001 (  1.5%)    LowerFIRRTLTypes
++    0.0001 (  2.4%)    'firrtl.module' Pipeline
++    0.0001 (  2.3%)      ExpandWhens
      0.0000 (  0.0%)      SFCCompat
--    0.0001 (  2.1%)    Inliner
-+    0.0001 (  1.8%)    Inliner
-     0.0000 (  0.8%)    'firrtl.module' Pipeline
-     0.0000 (  0.8%)      RandomizeRegisterInit
--    0.0001 (  1.7%)    CheckCombCycles
-+    0.0000 (  0.9%)    CheckCombCycles
+-    0.0002 (  4.0%)    Inliner
+-    0.0000 (  0.9%)    'firrtl.module' Pipeline
+-    0.0000 (  0.9%)      RandomizeRegisterInit
+-    0.0000 (  1.3%)    CheckCombCycles
++    0.0001 (  1.4%)    Inliner
++    0.0000 (  0.8%)    'firrtl.module' Pipeline
++    0.0000 (  0.8%)      RandomizeRegisterInit
++    0.0000 (  1.0%)    CheckCombCycles
      0.0000 (  0.1%)      (A) circt::firrtl::InstanceGraph
--    0.0002 (  5.1%)    'firrtl.module' Pipeline
--    0.0002 (  4.7%)      Canonicalizer
-+    0.0002 (  4.7%)    'firrtl.module' Pipeline
-+    0.0002 (  4.3%)      Canonicalizer
+-    0.0002 (  4.9%)    'firrtl.module' Pipeline
+-    0.0002 (  4.5%)      Canonicalizer
++    0.0002 (  5.1%)    'firrtl.module' Pipeline
++    0.0002 (  4.7%)      Canonicalizer
      0.0000 (  0.3%)      InferReadWrite
--    0.0000 (  0.4%)    PrefixModules
-+    0.0000 (  0.5%)    PrefixModules
+     0.0000 (  0.5%)    PrefixModules
      0.0000 (  0.1%)      (A) circt::firrtl::InstanceGraph
      0.0000 (  0.0%)      (A) circt::firrtl::NLATable
--    0.0000 (  1.0%)    IMConstProp
-+    0.0000 (  1.2%)    IMConstProp
-     0.0000 (  0.2%)    AddSeqMemPorts
-     0.0000 (  0.0%)      (A) circt::firrtl::InstanceGraph
--    0.0000 (  0.6%)    CreateSiFiveMetadata
--    0.0000 (  0.2%)    ExtractInstances
-+    0.0000 (  1.0%)    CreateSiFiveMetadata
-+    0.0000 (  0.3%)    ExtractInstances
+-    0.0001 (  1.5%)    IMConstProp
+-    0.0000 (  0.6%)    AddSeqMemPorts
+-    0.0000 (  0.5%)      (A) circt::firrtl::InstanceGraph
+-    0.0000 (  0.7%)    CreateSiFiveMetadata
++    0.0000 (  1.0%)    IMConstProp
++    0.0000 (  0.2%)    AddSeqMemPorts
++    0.0000 (  0.0%)      (A) circt::firrtl::InstanceGraph
++    0.0000 (  0.6%)    CreateSiFiveMetadata
+     0.0000 (  0.2%)    ExtractInstances
      0.0000 (  0.0%)      (A) circt::firrtl::NLATable
      0.0000 (  0.1%)    GrandCentral
--    0.0000 (  0.1%)    GrandCentralTaps
-+    0.0000 (  0.3%)    GrandCentralTaps
+-    0.0000 (  0.2%)    GrandCentralTaps
++    0.0000 (  0.1%)    GrandCentralTaps
      0.0000 (  0.1%)    GrandCentralSignalMappings
--    0.0000 (  0.7%)    SymbolDCE
-+    0.0000 (  1.0%)    SymbolDCE
+     0.0000 (  0.8%)    SymbolDCE
      0.0000 (  0.2%)    BlackBoxReader
      0.0000 (  0.0%)      (A) circt::firrtl::InstanceGraph
--    0.0001 (  1.5%)    'firrtl.module' Pipeline
--    0.0000 (  0.4%)      DropName
-+    0.0001 (  1.8%)    'firrtl.module' Pipeline
-+    0.0000 (  0.6%)      DropName
-     0.0000 (  1.1%)      Canonicalizer
-     0.0001 (  1.4%)    IMDeadCodeElim
--    0.0000 (  0.0%)      (A) circt::firrtl::InstanceGraph
-+    0.0000 (  0.1%)      (A) circt::firrtl::InstanceGraph
+     0.0001 (  1.5%)    'firrtl.module' Pipeline
+     0.0000 (  0.4%)      DropName
+-    0.0000 (  1.1%)      Canonicalizer
+-    0.0000 (  1.1%)    IMDeadCodeElim
+-    0.0000 (  0.1%)      (A) circt::firrtl::InstanceGraph
++    0.0000 (  1.0%)      Canonicalizer
++    0.0000 (  1.0%)    IMDeadCodeElim
++    0.0000 (  0.0%)      (A) circt::firrtl::InstanceGraph
      0.0000 (  0.1%)    EmitOMIR
--    0.0002 (  4.0%)    ResolveTraces
-+    0.0001 (  2.6%)    ResolveTraces
+-    0.0001 (  2.8%)    ResolveTraces
++    0.0002 (  3.9%)    ResolveTraces
      0.0000 (  0.0%)      (A) circt::firrtl::NLATable
--    0.0000 (  1.0%)    LowerXMR
+-    0.0000 (  0.9%)    LowerXMR
 +    0.0000 (  0.8%)    LowerXMR
      0.0000 (  0.1%)      (A) circt::firrtl::InstanceGraph
--    0.0002 (  5.0%)  LowerFIRRTLToHW
-+    0.0002 (  5.1%)  LowerFIRRTLToHW
+-    0.0002 (  5.2%)  LowerFIRRTLToHW
++    0.0002 (  5.3%)  LowerFIRRTLToHW
      0.0000 (  0.0%)    (A) circt::firrtl::NLATable
--    0.0000 (  0.1%)    (A) circt::firrtl::InstanceGraph
--    0.0002 (  5.2%)  'hw.module' Pipeline
--    0.0000 (  1.2%)    CSE
-+    0.0000 (  0.0%)    (A) circt::firrtl::InstanceGraph
-+    0.0002 (  5.7%)  'hw.module' Pipeline
-+    0.0001 (  1.7%)    CSE
+     0.0000 (  0.0%)    (A) circt::firrtl::InstanceGraph
+-    0.0002 (  5.1%)  'hw.module' Pipeline
++    0.0003 (  6.4%)  'hw.module' Pipeline
+     0.0000 (  1.2%)    CSE
      0.0000 (  0.0%)      (A) DominanceInfo
--    0.0001 (  3.1%)    Canonicalizer
--    0.0000 (  0.6%)    CSE
--    0.0000 (  0.0%)      (A) DominanceInfo
--    0.0000 (  0.3%)    LowerSeqFIRRTLToSV
--    0.0000 (  0.2%)  HWMemSimImpl
--    0.0001 (  1.5%)  'hw.module' Pipeline
+-    0.0001 (  3.3%)    Canonicalizer
+-    0.0000 (  0.3%)    CSE
++    0.0002 (  4.4%)    Canonicalizer
++    0.0000 (  0.5%)    CSE
+     0.0000 (  0.0%)      (A) DominanceInfo
+     0.0000 (  0.2%)    LowerSeqFIRRTLToSV
+     0.0000 (  0.2%)  HWMemSimImpl
+     0.0001 (  1.5%)  'hw.module' Pipeline
 -    0.0000 (  0.4%)    CSE
-+    0.0001 (  3.4%)    Canonicalizer
 +    0.0000 (  0.3%)    CSE
      0.0000 (  0.0%)      (A) DominanceInfo
--    0.0000 (  0.8%)    Canonicalizer
-+    0.0000 (  0.2%)    LowerSeqFIRRTLToSV
-+    0.0000 (  0.1%)  HWMemSimImpl
-+    0.0001 (  2.6%)  'hw.module' Pipeline
+     0.0000 (  0.8%)    Canonicalizer
      0.0000 (  0.3%)    CSE
      0.0000 (  0.0%)      (A) DominanceInfo
-+    0.0000 (  0.7%)    Canonicalizer
-+    0.0001 (  1.4%)    CSE
-+    0.0000 (  0.0%)      (A) DominanceInfo
      0.0000 (  0.0%)    HWCleanup
-     0.0000 (  0.2%)  'hw.module' Pipeline
+-    0.0000 (  0.3%)  'hw.module' Pipeline
++    0.0000 (  0.2%)  'hw.module' Pipeline
      0.0000 (  0.0%)    HWLegalizeModules
-     0.0000 (  0.1%)    PrettifyVerilog
--    0.0000 (  0.7%)  StripDebugInfoWithPred
--    0.0004 (  8.7%)  ExportVerilog
--    0.0001 (  3.6%)  'builtin.module' Pipeline
--    0.0001 (  3.1%)    'hw.module' Pipeline
--    0.0001 (  3.0%)      PrepareForEmission
--    0.0005 ( 13.0%)  Rest
-+    0.0000 (  0.8%)  StripDebugInfoWithPred
-+    0.0004 (  8.8%)  ExportVerilog
-+    0.0001 (  2.6%)  'builtin.module' Pipeline
-+    0.0001 (  2.2%)    'hw.module' Pipeline
-+    0.0001 (  2.1%)      PrepareForEmission
+-    0.0000 (  0.2%)    PrettifyVerilog
++    0.0000 (  0.1%)    PrettifyVerilog
+     0.0000 (  0.5%)  StripDebugInfoWithPred
+-    0.0003 (  7.5%)  ExportVerilog
+-    0.0001 (  2.4%)  'builtin.module' Pipeline
+-    0.0001 (  2.0%)    'hw.module' Pipeline
++    0.0003 (  7.8%)  ExportVerilog
++    0.0001 (  2.5%)  'builtin.module' Pipeline
++    0.0001 (  2.1%)    'hw.module' Pipeline
+     0.0001 (  2.0%)      PrepareForEmission
+-    0.0006 ( 14.7%)  Rest
+-    0.0039 (100.0%)  Total
+-	Command being timed: "firtool /nix/store/ly38rhsik2wil4mkmpsc5z8z7lfm2vip-source/regress/Ops.fir -o /nix/store/rfz8xg71wnncp5iydcs4inl9q65hwrrm-test-outputs/Ops/Ops.sv -mlir-timing -verbose-pass-executions"
 +    0.0006 ( 14.1%)  Rest
-     0.0041 (100.0%)  Total
--	Command being timed: "firtool /nix/store/ly38rhsik2wil4mkmpsc5z8z7lfm2vip-source/regress/Ops.fir -o /nix/store/1f8fxcd96z078szc53yx6hab9zll3829-test-outputs/Ops/Ops.sv -mlir-timing -verbose-pass-executions"
-+	Command being timed: "firtool /nix/store/ly38rhsik2wil4mkmpsc5z8z7lfm2vip-source/regress/Ops.fir -o /nix/store/9dqnbcjp2daj10ssgm5rahvzx3s364a6-test-outputs/Ops/Ops.sv -mlir-timing -verbose-pass-executions"
++    0.0040 (100.0%)  Total
++	Command being timed: "firtool /nix/store/ly38rhsik2wil4mkmpsc5z8z7lfm2vip-source/regress/Ops.fir -o /nix/store/f8dvy95kjpjl44pg9ajjdgdc1lhlimn0-test-outputs/Ops/Ops.sv -mlir-timing -verbose-pass-executions"
  	User time (seconds): 0.00
  	System time (seconds): 0.00
--	Percent of CPU this job got: 107%
-+	Percent of CPU this job got: 100%
+ 	Percent of CPU this job got: 100%
  	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
  	Average shared text size (kbytes): 0
  	Average unshared data size (kbytes): 0
  	Average stack size (kbytes): 0
  	Average total size (kbytes): 0
--	Maximum resident set size (kbytes): 71144
-+	Maximum resident set size (kbytes): 71044
+-	Maximum resident set size (kbytes): 71136
++	Maximum resident set size (kbytes): 71040
  	Average resident set size (kbytes): 0
- 	Major (requiring I/O) page faults: 0
--	Minor (reclaiming a frame) page faults: 3931
--	Voluntary context switches: 51
+-	Major (requiring I/O) page faults: 1
+-	Minor (reclaiming a frame) page faults: 3930
+-	Voluntary context switches: 32
 -	Involuntary context switches: 18
-+	Minor (reclaiming a frame) page faults: 3939
-+	Voluntary context switches: 67
-+	Involuntary context switches: 20
++	Major (requiring I/O) page faults: 0
++	Minor (reclaiming a frame) page faults: 3937
++	Voluntary context switches: 71
++	Involuntary context switches: 75
  	Swaps: 0
  	File system inputs: 0
  	File system outputs: 8
